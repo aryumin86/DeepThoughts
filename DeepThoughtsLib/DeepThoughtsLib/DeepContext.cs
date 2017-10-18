@@ -15,12 +15,12 @@ namespace DeepThoughtsLib
         public DbSet<Collocutor> Collocutors { get; set; }
         public DbSet<Profile> Profiles { get; set; }
 
-        /*
+
         protected override void OnModelCreating(ModelBuilder modelBuilder){
-            modelBuilder.Entity<Phrase>().ToTable("Phrase");
-            modelBuilder.Entity<Collocutor>().ToTable("Collocutor");
-            modelBuilder.Entity<Profile>().ToTable("Profile");
+            modelBuilder.Entity<Phrase>().ToTable("phrase");
+            modelBuilder.Entity<Collocutor>().ToTable("collocutor");
+            modelBuilder.Entity<Profile>().ToTable("profile");
         }
-        */
+
     }
 }
